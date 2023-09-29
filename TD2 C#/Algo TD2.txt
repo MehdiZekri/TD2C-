@@ -1,0 +1,33 @@
+Lexique :
+- mois[12] : tableau de chaines de caractères contenant les noms des 12 mois
+- choix_utilisateur : entier
+
+Début
+    mois <- tableau contenant les noms des 12 mois
+    
+    AFFICHER "Choisissez une option :"
+    AFFICHER "1. Lister les noms des 12 mois."
+    AFFICHER "2. Lister les noms des 12 mois avec les mois contenant un R en rouge."
+    AFFICHER "3. Lister les 12 mois avec leur numéro."
+
+    Lire choix_utilisateur
+    
+    POUR i DE 1 A 12 FAIRE
+        SI choix_utilisateur == 1 OU choix_utilisateur == 2 ALORS
+            SI choix_utilisateur == 2 ET contient_r(mois[i]) ALORS
+                COULEUR_TEXTE(ROUGE)
+            FIN SI
+            AFFICHER mois[i]
+            SI choix_utilisateur == 2 ET contient_r(mois[i]) ALORS
+                COULEUR_TEXTE(NOIR)
+            FIN SI
+        SINON SI choix_utilisateur == 3 ALORS
+            AFFICHER i, mois[i]
+        SINON
+            AFFICHER "Choix invalide. Veuillez choisir 1, 2 ou 3."
+            SORTIR
+        FIN SI
+    FIN POUR
+
+Fin
+

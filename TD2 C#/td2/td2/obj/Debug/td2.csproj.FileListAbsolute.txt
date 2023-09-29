@@ -1,0 +1,7 @@
+U:\SIO2\TD\TD2 C#\td2\td2\obj\Debug\td2.csproj.AssemblyReference.cache
+U:\SIO2\TD\TD2 C#\td2\td2\obj\Debug\td2.csproj.CoreCompileInputs.cache
+U:\SIO2\TD\TD2 C#\td2\td2\bin\Debug\td2.exe.config
+U:\SIO2\TD\TD2 C#\td2\td2\bin\Debug\td2.exe
+U:\SIO2\TD\TD2 C#\td2\td2\bin\Debug\td2.pdb
+U:\SIO2\TD\TD2 C#\td2\td2\obj\Debug\td2.exe
+U:\SIO2\TD\TD2 C#\td2\td2\obj\Debug\td2.pdb
